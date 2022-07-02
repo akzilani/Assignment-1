@@ -1,0 +1,500 @@
+body{
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.mytext{
+    font-family: 'Raleway', sans-serif;
+}
+span{
+    color: #fe320a;
+}
+.menu_left img{
+    width: 80%;
+    padding: 15px;
+}
+.header_section_part{
+    background-color: rgba(0, 0, 0, 0.3);
+    position: fixed;
+    z-index: 2;
+    width: 100%;
+}
+.menu_right ul li a{
+    color: white;
+} 
+.menu_right ul li a:hover{
+    color: white;
+}  
+/* header content part start */
+
+.header_bottom_part{
+
+    height: 550px;
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    position: relative; 
+    z-index: 1;   
+} 
+.header_bottom_part::before{
+    content: "";
+    clear: both;
+    display: block;
+
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.header_conternt_part h2{
+   font-weight: 900;
+   color: white;
+   font-size: 50px;
+}
+.header_conternt_part p{
+
+    padding: 5px 15%;
+}
+
+/* header content part end */
+/* about part start */
+.about_us_image img{
+
+    width: 100%;
+}
+.about_us_header{
+    margin: auto;
+    text-align: center;
+    margin: 25px 0px;
+    position: relative;
+}
+.about_us_header h2{
+    margin: 10px 0px;
+}
+.hr{
+
+    width: 15%;
+    text-align: center;
+    margin: auto;
+    height: 2px;
+    background: #fe320a;
+    border: none;
+}
+.hr::after{
+
+    content: '';
+    clear: both;
+    display: block;
+
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    background: #fe320a;
+    position: absolute;
+    left: 50%;
+    top: 44px;
+}
+.about_us_image{
+    position: relative;
+}
+.about_icon{
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;   
+}
+.about_icon nav{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    padding: 0px;
+}
+.about_icon nav ul{
+    margin: auto;
+}
+.about_icon nav ul li{
+    padding: 2px;
+    margin: 3px;
+}
+.about_icon nav ul li a{
+    color: wheat;
+    border-radius: 50%;
+    border: 1px solid 0.7;
+    background:rgba(0, 0, 0, 0.7);
+    padding: 0px;
+
+}
+.about_icon nav ul li a:hover{
+    color:rgba(0, 0, 0, 0.7);
+    border-radius: 50%;
+    border: 1px solid 0.7;
+    background:white;
+    padding: 0px;
+}
+.about_icon h5{
+    margin: 0px 0px;
+    padding: 0px;
+}
+.button{
+    background-color: #fe320a;
+    color: white;
+    font-weight: 600;  
+}
+
+
+/* about part end */
+/* service part */
+.our_service_header{
+    margin: auto;
+    text-align: center;
+    margin: 25px 0px;
+    position: relative;
+}
+.our_service_header h2{
+    margin: 10px 0px;
+}
+.service_card{
+    border: none;
+    margin: 0px;
+    padding: 0px;
+}
+.service_card img{
+    width:10%;
+    height: 30px;
+}
+/* service end */
+
+/* my skill start */
+.my_skill_header{
+    margin: auto;
+    text-align: center;
+    margin: 25px 0px;
+    position: relative;
+}
+.my_skill_header h2{
+    margin: 10px 0px;
+}
+
+.progess_bar .progress_out{
+    height: 15px;
+    width: 100%;
+    background: #000;
+    border-radius: 5px;
+    position: relative;
+    text-align: right;
+    font-size: 10px;
+    color: white;
+}
+.progress_in_one,
+.progress_in_two,
+.progress_in_three{
+    height: 8px;
+    background: red;
+    border-radius: 5px;
+    position: absolute;
+    left: 0%;
+    top: 26%;
+    margin: 0px 5px;
+}
+.progress_in_one{
+    width: 60%;
+}
+.progress_in_two{
+    width: 70%;
+}
+.progress_in_three{
+    width: 80%;
+}
+/* my skill end */
+
+/* happy clint part start */
+.happy_clint_part{
+    z-index: 1;
+    position: relative;
+}
+.card_body_part{
+    text-align: center;
+}
+.card_body_part img{
+    width:15%;
+    height: 40px;
+    margin: auto;
+    text-align: center;
+    margin: 10px ;
+}
+.happy_clint_part::before{
+    content: "";
+    clear: both;
+    display: block;
+
+    background:rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+   
+}
+/* happy clint part end */
+
+/* protfolio start */
+.protfolio_header{
+    margin: auto;
+    text-align: center;
+    margin: 25px 0px;
+    position: relative;
+    margin: 0px;
+}
+.protfolio_header h2{
+    margin: 10px 0px;
+}
+.protfolio_menu nav ul{
+    margin: auto;
+ 
+}
+.protfolio_menu nav ul li a{
+    color: #000;
+}
+.protfolio_image{
+    width: 100%;
+    position: relative;
+}
+.protfolio_image img{
+    width: 100%;  
+}
+.protfolio_image img:hover{
+    display: flex;
+    cursor: pointer; 
+}
+
+.protfolio_image .over{
+    position: absolute;
+    background: rgba(255, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    cursor: pointer;
+}
+/* protfolio end */
+
+/* MY TEAM START */
+.my_team_header{
+    margin: auto;
+    text-align: center;
+    margin: 25px 0px;
+    position: relative;
+    margin: 0px;
+}
+.my_team_header h2{
+    margin: 10px 0px;
+}
+.my_team{
+    position: relative;
+}
+.my_team img{
+    width: 100%;
+    border-bottom: 5px solid red;
+}
+/* .my_team img:hover +.my_team_over{
+    display: block;
+    cursor: pointer;
+} */
+.my_team_icon{
+    background-color: rgba(255, 0, 0, 0.8);
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    text-align: center;   
+}
+.my_team_icon nav{
+    margin: auto;
+    text-align: center;
+}
+.my_team_icon nav ul{
+    margin: auto;
+
+}
+.my_team_icon nav ul li{
+    padding: 2px;
+    margin: 3px;
+}
+.my_team_icon nav ul li a{
+    color: wheat;
+    border-radius: 50%;
+    border: 1px solid 0.7;
+    background:rgba(255, 0, 0, 0.8);
+    padding: 0px;
+
+}
+.my_team_icon nav ul li a:hover{
+    color:rgba(255, 0, 0, 0.8);
+    border-radius: 50%;
+    border: 1px solid 0.7;
+    background:white;
+    padding: 0px;
+}
+.my_team_icon h5{
+    margin: 0px 0px;
+    padding: 0px;
+}
+.my_team_over{
+    background: rgba(255, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    display: flex;
+}
+.my_team_social{
+
+}
+/* MY TEAM END */
+
+/* user review start */
+.user_review_part{
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    position: relative; 
+    z-index: 1;   
+} 
+.user_review_part::before{
+    content: "";
+    clear: both;
+    display: block;
+
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.user_review_part h2{
+   font-weight: 900;
+   color: white;
+   font-size: 50px;
+}
+.user_review_part p{
+
+    padding: 5px 15%;
+}
+/* user review end */
+/* letest blog star */
+.letest_blog_header{
+    margin: auto;
+    text-align: center;
+    margin: 25px 0px;
+    position: relative;
+    margin: 0px;
+}
+.letest_blog_header h2{
+    margin: 10px 0px;
+}
+.icon_text i{
+    font-size: 12px;
+    color: red;
+}
+.icon_text em{
+    font-size: 13px;
+}
+/* letest blog end */
+/* contact us start */
+
+.contact_us_part{
+
+    height: 500px;
+    background-size: cover;
+    align-items: center;
+    position: relative; 
+    z-index: 1;   
+} 
+.contact_us_part::before{
+    content: "";
+    clear: both;
+    display: block;
+
+    background: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+.contact_us_header{
+    margin: auto;
+    text-align: center;
+    margin: 0px 0px;
+    position: relative;
+    padding: 0;
+}
+.contact_us_header h2{
+    margin: 10px 0px;
+    color: white;
+}
+.contact_input_part input{
+    width: 48%;
+    border-radius: 5px;
+    background: transparent;
+    margin: 5px 5px;
+    padding: 5px;
+    color: white;
+    border:1px solid rgba(255, 255, 255, 0.7);
+    justify-content:space-between;
+    display: flex;
+    display: inline-block;
+    
+    
+}
+.contact_input_part textarea{
+    width: 98%;
+    border-radius: 5px;
+    background: transparent;
+    margin: 5px 5px;
+    padding: 5px;
+    color: white;
+    border:1px solid rgba(255, 255, 255, 0.7);
+    height: 200px;
+}
+.contact_button_part button{
+    width: 70%;
+}
+/* contact us end */
+/* footer part start */
+.footer_part{
+    background: #000;
+    color: white;
+}
+.footer_part h6{
+    font-size: 15px;
+}
+.footer_part nav ul li a{
+    color: white;
+}
+
+
+/* footer part end */
+/* font-family: 'Montserrat', sans-serif;  *
+
+/* Responsive design part stard */
+@media only screen and (max-width: 380px) {
+
+  }
+/* Responsive design part end */
